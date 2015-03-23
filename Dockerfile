@@ -14,5 +14,5 @@ ADD config.js /etc/kiwiirc/
 
 RUN ./KiwiIRC/kiwi build
 
-CMD ./KiwiIRC/kiwi start -F
+CMD ./KiwiIRC/kiwi -f start
 
