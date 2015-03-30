@@ -186,7 +186,7 @@ conf.quit_message = "http://www.kiwiirc.com/ - A hand-crafted IRC client";
 conf.client = {
     server: '',
     port:    6667,
-    ssl:     true,
+    ssl:     false,
     channel: '#fabric8-bot',
     channel_key: '',
     nick:    'kiwi_?',
